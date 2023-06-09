@@ -10,11 +10,12 @@ nav {
 
 h1 {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
   font-family: "Crimson Text", serif;
   font-weight: bolder;
   font-size: 50px;
-  text-align: center;
+  text-align: left;
   padding-top: 400px;
+  color: white;
 }
