@@ -38,6 +38,8 @@ body {
   width: 25%;
   background-color: rgba(0, 0, 0, 0.4);
   padding: 20px;
+  height: 575px;
+  overflow-y: auto;
 }
 
 .item-img {
