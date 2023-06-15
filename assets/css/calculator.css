@@ -2,4 +2,55 @@ body {
   background-image: url("../img/dogsandi.jpeg");
   background-size: cover;
   background-position: center 8%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f3f3f3;
+  font-family: Arial, sans-serif;
+}
+
+.calculator {
+  width: 300px;
+  background-color: #222;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  color: #fff;
+}
+
+.calculator input[type="number"],
+.calculator select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: none;
+}
+
+.calculator select {
+  background-color: #333;
+  color: #fff;
+}
+
+.calculator button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #008cff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.calculator button:hover {
+  background-color: #006ae6;
+}
+
+.calculator h3 {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: normal;
 }
